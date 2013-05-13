@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Sai fora mano"
+AuthUserFile /home/lucas/tectrend.com.br/clientes/lucas/packages/.htpasswd
+Require valid-user
+
+RewriteEngine on
+RewriteBase	/packages
+RewriteRule	^$ 	app/webroot/      [L,NS]
+RewriteRule	(.*)	app/webroot/$1  [L,NS]

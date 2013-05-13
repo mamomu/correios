@@ -1,0 +1,99 @@
+2013-04-29 18:21:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /packages/app/webroot/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-29 18:21:52 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /packages/app/webroot/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-29 18:27:07 Error: [MissingControllerException] Controller class PackagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PackagesController',
+  'plugin' => NULL,
+)
+Request URL: /packages/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 18:27:29 Error: [MissingControllerException] Controller class PackagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PackagesController',
+  'plugin' => NULL,
+)
+Request URL: /packages/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 18:28:04 Error: [MissingControllerException] Controller class PackagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PackagesController',
+  'plugin' => NULL,
+)
+Request URL: /packages/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 18:28:05 Error: [MissingControllerException] Controller class PackagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PackagesController',
+  'plugin' => NULL,
+)
+Request URL: /packages/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 18:28:05 Error: [MissingControllerException] Controller class PackagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PackagesController',
+  'plugin' => NULL,
+)
+Request URL: /packages/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 18:28:19 Error: [MissingControllerException] Controller class PackagesController could not be found.
+Exception Attributes: array (
+  'class' => 'PackagesController',
+  'plugin' => NULL,
+)
+Request URL: /packages/packages
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 18:29:15 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/run/mysqld/mysqld.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /packages/
+Stack Trace:
+#0 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Model/Model.php(3221): ConnectionManager::getDataSource('default')
+#3 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Model/Model.php(1108): Model->setDataSource('default')
+#4 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Model/Model.php(3243): Model->setSource('packages')
+#5 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Model/Model.php(2696): Model->getDataSource()
+#6 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Controller/Controller.php(1074): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/Controller/PackagesController.php(17): Controller->paginate()
+#9 [internal function]: PackagesController->index()
+#10 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(PackagesController), Array)
+#11 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 /home/lucas/tectrend.com.br/clientes/lucas/packages/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PackagesController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/lucas/tectrend.com.br/clientes/lucas/packages/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
